@@ -1,0 +1,10 @@
+redis:
+  host: 127.0.0.1
+  port: 6379
+  timeout: 5000
+  database: 0
+  jedis:
+    pool:
+      max-idle: 8
+      max-wait:
+      min-idle: 0
